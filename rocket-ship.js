@@ -1,35 +1,39 @@
-var speed = (2)
+
 var spaceship1 = {
     name: 'Galaxy Cruiser',
-    drive: function(speed)
+    drive: function(speed) {
+    console.log (this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph'); }
     };
 
+spaceship1.drive(2);
 
-  console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph');
 
 
-var speed2 = (14)
 var spaceship2 = {
     name: 'The Subaru Express',
-    drive: function(speed)
+    drive: function(speed) {
+    console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph'); }
     };
 
-  console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed2 + 'lyph');
+spaceship2.drive(14);
 
+  
 
-var speed3 = (44)
 var spaceship3 = {
     name: 'The Powder Bleu Babe',
-    drive: function(speed3)
+    drive: function(speed) {
+    console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph'); }
     };
 
-  console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed3 + 'lyph');
+   spaceship3.drive(44);
 
 
-var speed4 = (44444444)
 var spaceship4 = {
-    name: 'Very Fast Ship',
-    drive: function(speed4)
+name: 'Very Fast Ship',
+drive: function(speed) {
+console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph'); }
     };
 
-  console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed4 + 'lyph');
+spaceship4.drive(44444);
+
+  
