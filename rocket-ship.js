@@ -1,50 +1,35 @@
-// Object Literal
-var car = {
-    make: 'Toyota',
-    model: 'Prius',
-    drive: function(speed) {
-        console.log(this.make + ' ' + this.model + ' is driving ' + speed + 'mph.')
-    }
-}
+var speed = (2)
+var spaceship1 = {
+    name: 'Galaxy Cruiser',
+    drive: function(speed)
+    };
 
-// Call the drive method with a speed argument value of 65
-car.drive(65)
-// Object New
-var car = new Object()
-car.make = 'Toyota'
-car.model = 'Sienna'
-car.drive = function(speed) {
-    console.log(this.make + ' ' + this.model + ' is driving ' + speed + 'mph.')
-}
 
-// Call the drive method with a speed argument value of 35
-car.drive(35)
-// Constructor Function
-var Vehicle = function() {
-    this.make = 'Toyota'
-    this.model = '4Runner'
-    this.drive = function(speed) {
-        console.log(this.make + ' ' + this.model + ' is driving ' + speed + 'mph.')
-    }
-}
+  console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph');
 
-var car = new Vehicle()
 
-// Call the drive method with a speed argument value of 85
-car.drive(85)
-// Class
-class Vehicle {
-    constructor() {
-        this.make = 'Toyota'
-        this.model = 'Yaris'
-    }
+var speed2 = (14)
+var spaceship2 = {
+    name: 'The Subaru Express',
+    drive: function(speed)
+    };
 
-    drive(speed) {
-        console.log(this.make + ' ' + this.model + ' is driving ' + speed + 'mph.')
-    }
-}
+  console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed2 + 'lyph');
 
-var car = new Vehicle()
 
-// Call the drive method with a speed argument value of 55
-car.drive(55)
+var speed3 = (44)
+var spaceship3 = {
+    name: 'The Powder Bleu Babe',
+    drive: function(speed3)
+    };
+
+  console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed3 + 'lyph');
+
+
+var speed4 = (44444444)
+var spaceship4 = {
+    name: 'Very Fast Ship',
+    drive: function(speed4)
+    };
+
+  console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed4 + 'lyph');
