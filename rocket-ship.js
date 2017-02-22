@@ -1,39 +1,29 @@
+//best guess- with Expand
 
-var spaceship1 = {
-    name: 'Galaxy Cruiser',
-    drive: function(speed) {
-    console.log (this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph'); }
+class Spaceship {
+ constructor (spaceshipName, spaceshipDrive) {   
+ this.name = spaceshipName;
+ this.drive = spaceshipDrive;
+
+this.drive = this.drive.bind(this);
+this.launch = this.launch.bind(this);
+
+ }
+}
+drive(); {console.log(this.name + ' ' + topspeed + 'lyph'); }
+launch(); { console.log(this.name + 'to infinity and beyond' + topspeed + '!'); } 
+
+class DetailsSpaceship extends Spaceship {
+    constructor (spaceshipName, spaceshipDrive) {  
+        super(spaceshipName, spaceshipDrive);
+         this.name= 'Galaxy Cruiser';
+         this.drive= function(topspeed) 
+    }
     };
 
-spaceship1.drive(2);
+ 
+Spaceship.drive(); 
+
+Spaceship.launch();
 
 
-
-var spaceship2 = {
-    name: 'The Subaru Express',
-    drive: function(speed) {
-    console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph'); }
-    };
-
-spaceship2.drive(14);
-
-  
-
-var spaceship3 = {
-    name: 'The Powder Bleu Babe',
-    drive: function(speed) {
-    console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph'); }
-    };
-
-   spaceship3.drive(44);
-
-
-var spaceship4 = {
-name: 'Very Fast Ship',
-drive: function(speed) {
-console.log(this.name + ' ' + ' launching to infinity and beyond ' + ' at top speed ' + speed + 'lyph'); }
-    };
-
-spaceship4.drive(44444);
-
-  
